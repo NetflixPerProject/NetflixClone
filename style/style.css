@@ -1,0 +1,64 @@
+@import url(./color.css);
+@import url(./dimension.css);
+@import url(./position.css);
+@import url(./text.css);
+
+
+.header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/logo.png);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+ nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+ }
+ .logo{
+    width: 300px;
+    cursor: pointer;
+ }
+
+ nav button{
+    border: 0;
+    outline: 0;
+    background: red;
+    color: white;
+    padding: 7px 20px;
+    font-size: 14px;
+    border-radius: 4px;
+    margin-left: 10px;
+    cursor: pointer;
+ }
+ .btn-language{
+    border: 1px solid white;
+ }
+ .content{
+   position: absolute;
+   top: 40%;
+   left: 49%;
+   transform: translate(-50%,-50%);
+   text-align: center;
+   margin-top: 100px;
+
+ }
+ .signin input{
+   background: transparent;
+   color: white;   
+   padding:  2% 12%;
+   border-radius: 4px;
+   margin-right: 4%;
+ }
+ form button{
+   background-color: red;
+   color: white;
+   font-size: 14px;
+   border: 0;
+   outline: 0;
+   padding:15px 25px;
+   border-radius: 4px;
+   cursor: pointer;
+}
