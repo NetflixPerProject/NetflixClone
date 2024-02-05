@@ -1,0 +1,16 @@
+/* All Resposive */
+
+@media(max-width:767.98px){
+    .navbar-brand img{
+        width: 20%;
+        height: 20%;
+    }
+
+    .netflix-padding-left{
+        padding-left: 10px;
+    }
+    .netflix-padding-right{
+        padding-right: 10px;
+    }
+} 
+
