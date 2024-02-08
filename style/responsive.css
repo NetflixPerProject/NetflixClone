@@ -5,7 +5,6 @@
         width: 20% !important;
         height: 20%;
     }
-
     .netflix-padding-left{
         padding-left: 10px !important;
     }
@@ -26,4 +25,23 @@
     .netflix-profile{
         margin-left: 5px !important;
     }
+    .netflix-home-video .content .left{
+        margin-left: 25px !important;
+    }
+    .netflix-home-video .content .left img{
+        margin-top: 5px !important;
+        width: 200px;
+    }
+    button{
+        font-size: 10px !important;
+        width: max-content;
+        opacity: 0.8;
+    }
+    .p1{
+        font-size: 12px !important;
+    }
 }  
+
+
+
+  
