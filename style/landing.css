@@ -217,3 +217,69 @@ netflix-home-video .top{
 .card:hover > .card-body{
     display: block;
 }
+
+.carousel-control-prev{
+    display: none;
+}
+
+.carousel-control-next{
+    display: none;
+}
+
+.tab-change-btn{
+    border: none;
+    width: 30px !important;
+}
+
+
+.margin-right{
+    margin-right: 100px;
+}
+
+.netflix-card-text{
+    font-size: 12px ;
+}
+
+.position-slider2{
+    top: 10px !important;
+    position: absolute !important;
+}
+
+.margin-title2{
+    margin-top: 33px;
+}
+
+.position-slider3{
+    top: 10px !important;
+    position: absolute !important;
+}
+
+
+.footer{
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+ul{
+    list-style: none;
+    font-size: 15px ;
+    color: rgba(255, 255, 255, 0.367);
+    font-weight: 100;
+}
+
+
+.service-btn{
+    background-color: transparent;
+     margin-left: 30px;
+      color: rgba(255, 255, 255, 0.367);
+      border: 1px solid rgba(255, 255, 255, 0.367);
+      font-size: 15px;
+      font-weight: 100;
+}
+
+.copy-right{
+    font-size: 15px;
+      font-weight: 200;
+      color: rgb(249, 14, 14);
+      margin-left: 28px;
+}

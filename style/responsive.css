@@ -51,7 +51,22 @@
         margin-left: 0px;
     }
     .card-body{
-        top: 80px;
+        top: 80px !important;
+    }
+    .netflix-card-text{
+        font-size: 8px;
+    }
+    .position-slider2{
+        top: 0px !important;
+    }
+    .margin-title{
+        margin-top: 100px;
+    }
+    .margin-title2{
+        margin-top: 14px;
+    }
+    .copy-right{
+        margin-left: 0px !important;
     }
 }  
 
