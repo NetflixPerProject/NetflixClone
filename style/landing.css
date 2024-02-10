@@ -171,3 +171,49 @@ netflix-home-video .top{
 .netflix-home-video .content .left img{
     margin-top: 190px;
 }
+
+/*Slide*/
+.slider1{
+    position: absolute;
+    top: 800px;
+    z-index: 500;
+
+}
+
+.card{
+    background: #141414 !important;
+    width: 250px;
+    border-radius: 4px;
+    transition: 0.2s linear;
+    position: relative;
+}
+
+.card:hover{
+    transform: scale(1.2);
+    z-index: 10;
+}
+.card-icon{
+    color: #fff;
+    padding: 0px !important;
+    font-size: 28px;
+    border-radius:50%;
+    cursor: pointer;
+}
+
+.netflix-card-text{
+    font-size: 12px;
+}
+
+.card-body{
+    display: none;
+    padding: 10px 15px;
+    position: absolute;
+    background-color: #141414;
+    top: 120px;
+    width: 100%;
+    margin: 10px;
+}
+
+.card:hover > .card-body{
+    display: block;
+}
