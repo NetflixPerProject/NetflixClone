@@ -9,15 +9,8 @@
    height: 100vh;
    background-size: cover;
    background-position: center;
-   position: relative;
 }
 
-nav {
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-   padding: 10px 0;
-}
 
 .logo {
    width: 300px;
@@ -81,16 +74,17 @@ form button {
    border-radius: 4px;
    margin-right: 4%;
 }
-.page6{
+ .page6{
    padding: 90px 12%;
    text-align: center;
    font-size: 18px;
-}
-.page6 h1{
+} 
+ .page6 h1{
    font-weight: 500;
    font-size: 55px;
    margin-bottom: -7%;
-}
+}  
+
 .question{
    margin: 160px;
    width: 100%;
@@ -117,6 +111,30 @@ form button {
 input[type="radio"]{
    display: none;
 }
+label::after{
+   content: '+';
+   font-size: 34px;
+   right: 20px;
+   position: absolute;
+   transition: transform 0.5s;
+}
+
+.question .guess{
+   background: #303030;
+   text-align: left;
+   padding: 0 20px;
+   max-height: 0;
+   overflow: hidden;
+   transition: max-height 0.5s,padding 0.5s;
+}
+.question input[type="radio"]:checked + label +.guess{
+   max-height: 600px;
+   padding: 30px 20px;
+}
+.question input[type="radio"]:checked + label::after{
+   transform: rotate(135deg);
+}
+
 .sign input{
    background: #696969;
    color: white;
@@ -130,11 +148,9 @@ body{
    height: 100vh;
    background-size: cover;
    background-position: center;
-   position: relative;
    
 } 
 .page{
-   position: absolute;
    left:50%;
    top:65%;
    width: 425px;
@@ -142,7 +158,31 @@ body{
    padding: 60px;
    border-radius: 4px;
    background: rgba(0,0,0,0.75);
-   transform: translate(-50%,-50%);
+
+}
+
+
+
+@media only screen and (max-width:600px){
+   .logo{
+      width: 200px;
+   }
+   nav button{
+      padding: 5px 10px;
+   }
+   nav .btn-language{
+      padding: 4px 8px;
+   }
+   .content{
+      position: unset;
+      transform: none;
+      padding-top: 150px
+   } ;
+   .content h1{
+      font-size: 20px;
+
+   }
+
 }
 
 
