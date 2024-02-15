@@ -10,7 +10,7 @@ let singUp = () => {
         users.push({userName,password,email})
           localStorage.setItem("users",JSON.stringify(users))
        alert(`welcome ${userName}`)
-       window.location.href = "http://127.0.0.1:5500/pages/profil.html"
+       window.location.href = "http://127.0.0.1:5500/NetflixClone/pages/profil.html"
       }
       else {
         alert("password not valide")
@@ -24,7 +24,7 @@ let singIn = () => {
     let user = users.filter(e=>e.email === email && e.password === password)
     if(user.length) {
         alert(`welcome ${user[0].userName}`)
-        window.location.href = "http://127.0.0.1:5500/pages/profil.html"
+        window.location.href = "http://127.0.0.1:5500/NetflixClone/pages/profil.html"
     }
     else {
         alert("worng password")
