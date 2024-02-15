@@ -1,4 +1,4 @@
-users =["Meycem","Farouk","Cherni"]
+let users =["Meycem","Farouk","Cherni"]
 
 let memberDiv = document.querySelector(".memberDiv");
 let addIcon = document.querySelector(".addIcon");
